@@ -1,3 +1,4 @@
+//cpp
 int getNthFromLast(Node *head, int n)
     {
           Node*temp= head;
