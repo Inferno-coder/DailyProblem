@@ -10,6 +10,7 @@ class Solution{
         
         int pick = 0;
         if(n-pow(num,x) >= 0){
+            
             pick = solve(num+1,n-pow(num,x),x,dp);
         }
         int notpick = solve(num+1,n,x,dp);
