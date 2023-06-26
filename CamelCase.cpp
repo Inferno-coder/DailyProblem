@@ -8,6 +8,7 @@
             for(auto s: x){
                 if(isupper(s))
                        st+=s; 
+                
                     
             }
             if(Pattern==string(st.begin() + 0, st.begin() + Pattern.length()))
