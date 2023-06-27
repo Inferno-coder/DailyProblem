@@ -13,6 +13,7 @@ public:
 
             while(!q.empty()){
                 int cur = q.front();
+                
                 q.pop();
 
                 for(int ne : gr[cur]){
