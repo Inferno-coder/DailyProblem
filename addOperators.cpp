@@ -14,6 +14,7 @@ public:
             if (i > ind && s[ind] == '0')
                 break;
             
+            
             st += s[i];
             curr = stoll(st);
             
