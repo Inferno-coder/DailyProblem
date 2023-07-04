@@ -10,6 +10,7 @@ public:
 
         // Step 1: Find the first island and mark its cells as visited
         bool found = false;
+        
         vector<vector<bool>> visited(m, vector<bool>(n, false));
         queue<pair<int, int>> q;
 
