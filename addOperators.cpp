@@ -15,6 +15,7 @@ public:
                 break;
             
             
+            
             st += s[i];
             curr = stoll(st);
             
