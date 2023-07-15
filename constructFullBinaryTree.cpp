@@ -10,6 +10,7 @@ class Solution
         }
         Node* temp=new Node(pre[index]);
         index++;
+       
         for(int j=beg;j<=end;j++){
             if(pre[index]==preMirror[j]){
                 temp->left= Saviour(index,j,end,pre,preMirror,last);
