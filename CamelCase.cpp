@@ -4,6 +4,7 @@
         
         for(auto x: Dictionary){
             string st;
+            
             st.clear();
             for(auto s: x){
                 if(isupper(s))
