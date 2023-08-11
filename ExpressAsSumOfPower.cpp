@@ -6,6 +6,7 @@ class Solution{
         
         if(pow(num,x) > n) return 0;
         
+        
         if(dp[num][n] != -1) return dp[num][n];
         
         int pick = 0;
