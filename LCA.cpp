@@ -5,6 +5,7 @@ Node* LCA(Node *root, int p, int q)
             return root;
         }
         Node* left = LCA(root->left, p, q);
+                
         Node* right = LCA(root->right, p, q);
 
         //result
