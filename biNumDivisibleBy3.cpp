@@ -11,7 +11,7 @@ public:
 	            else even++;
 	        }
 	    }
-	    return abs(even-odd)%3==0;
+	    return abs(odd-even)%3==0;
 	}
 
 };
