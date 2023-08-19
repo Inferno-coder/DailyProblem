@@ -7,6 +7,7 @@ public:
         vector<string>s;
         for(int i=0;i<totRow;i++){
             string temp="";
+            
           for(int j=0;j<totCol;j++){
             temp=temp+"+"+to_string(grid[i][j]);
           }
