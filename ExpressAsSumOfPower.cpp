@@ -8,6 +8,7 @@ class Solution{
         
         
         if(dp[num][n] != -1) return dp[num][n];
+
         
         int pick = 0;
         if(n-pow(num,x) >= 0){
