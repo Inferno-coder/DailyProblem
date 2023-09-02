@@ -8,6 +8,7 @@
             st.clear();
             for(auto s: x){
                 
+                
                 if(isupper(s))
                     
                        st+=s; 
