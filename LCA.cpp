@@ -4,6 +4,7 @@ Node* LCA(Node *root, int p, int q)
             if (root == NULL || root->data == p || root->data == q) {
             return root;
         }
+                
         Node* left = LCA(root->left, p, q);
                 
         Node* right = LCA(root->right, p, q);
