@@ -7,14 +7,11 @@ public:
         vector<string>s;
         for(int i=0;i<totRow;i++){
             string temp="";
-            
           for(int j=0;j<totCol;j++){
             temp=temp+"+"+to_string(grid[i][j]);
           }
           s.push_back(temp);
         }
-       // for(auto it:s)cout<<it<<" ";
-       // cout<<endl;
         for(int i=0;i<totCol;i++){
           string temp="";
           for(int j=0;j<totRow;j++){
