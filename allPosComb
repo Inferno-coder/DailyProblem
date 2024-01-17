@@ -1,0 +1,14 @@
+void solve(int ind,vector<int>&arr,int tot,vector<int>&vis,vector<int>&temp,vector<vector<int>>&res){
+    if(temp.size()==tot){
+        res.push_back(temp);
+        return;
+    }
+    for(int i=0;i<tot;i++){
+     if(!vis[ind]){
+         vis[ind]=1;
+         temp.push_back(arr[ind]);
+         solve(ind+1,arr,tot,vis,temp,res);
+         vis[ind]=0;
+         temp.pop_back();
+     }
+    }
