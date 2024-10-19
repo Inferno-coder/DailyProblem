@@ -13,7 +13,6 @@
                     
                        st+=s; 
                 
-                    
             }
             if(Pattern==string(st.begin() + 0, st.begin() + Pattern.length()))
                 up.push_back(x);
