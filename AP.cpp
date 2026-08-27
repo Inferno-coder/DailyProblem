@@ -8,6 +8,7 @@ public:
         int temp=arr[i]-arr[i-1];
         if(temp!=diff)return false;
         }
+        
         return true;
     }
 };
